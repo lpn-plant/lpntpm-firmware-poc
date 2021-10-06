@@ -151,6 +151,9 @@
 #elif defined(STM32L475xx)
     #define WOLFSSL_STM32L4
     #define HAL_CONSOLE_UART huart1
+#elif defined(STM32L476xx)
+    #define WOLFSSL_STM32L4
+    #define HAL_CONSOLE_UART huart1
 #elif defined(STM32L562xx)
     #define WOLFSSL_STM32L5
     #define WOLFSSL_STM32_PKA
